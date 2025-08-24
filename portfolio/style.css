@@ -1,0 +1,258 @@
+/* CSS Boilerplate */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ html,body {
+width: 100%;
+height: 100%;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.homepage{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(199, 196, 196);
+
+}
+.nav{
+    height: 50px;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: flex-end;
+    gap: 2vw;
+    padding-top: 5px;
+    padding-right: 8px;
+    display: inline-flex;
+    align-items: center;
+    /* justify-content: center; */
+    margin-bottom: 5vh;
+    
+}
+
+.nav i{
+    background-color: black;
+    padding: 0.5rem;
+    font-size: 2rem;
+    color: rgb(242, 170, 14);
+    border-radius: 50%;
+    
+
+}
+
+#menu{
+    display: none;
+}
+
+.center{
+    height: 80vh;
+    width: 100vw;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    
+}
+
+.leftp1{
+    height: 60%;
+    width: 5vw;
+    background-color: orange;
+
+}
+
+.content{
+    height: 100%;
+    width: 45%;
+    /* background-color: blue; */
+    padding-left: 5vw;
+    padding-right: 4vw;
+    /* display: flex; */
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: right;
+    display: block;
+    
+}
+.profile{
+    height: 100%;
+    width: 45%;
+    /* background-color: rgb(99, 99, 132); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rightp1{
+    height: 60%;
+    width: 5vw;
+    background-color: orange;
+
+}
+.content h2{
+    color: orange;
+    font-family: Oswald;
+    font-weight: 900;
+    font-size:2rem ;
+    letter-spacing: 1px;
+
+}
+.heading a {
+    text-decoration: none;
+    color: rgb(253, 251, 251);
+    font-size:5vw ;
+    font-weight: 700;
+    text-shadow: 5px 3px 3px orange;
+    font-family: Oswald;
+    letter-spacing: 5px;
+    margin-bottom: 1vh;
+}
+
+#imro{
+    text-shadow: 5px 3px 1px black;
+}
+
+.heading{
+    display: flex;
+    gap: 15px;
+}
+
+#yellowline{
+    background-color: orange;
+    display: inline-block;
+    margin-bottom: 1.5vh;
+    padding: 1px 6px;
+}
+#blackline{
+    background-color: black;
+    color: orange;
+    display: inline-block;
+    margin-bottom: 3vh;
+    padding: 1px 6px;
+}
+
+.content button{
+    background-color: black;
+    color: white;
+    padding: 7px 15px;
+    border-radius: 15px;
+    font-size: 0.9vw;
+    border: 1px solid black;
+    margin-top: 3vh;
+    font-weight: 600;
+}
+.content p{
+    font-size: 0.8vw;
+}
+
+.pic{
+    height: 30vw;
+    width: 65%;
+    /* background-color: azure; */
+    background-image: url(./images/king.jpg);
+    background-size: cover;
+    background-position: top;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+}
+.pic img{
+    height: 100%;
+    width: 100%;
+    /* overflow: hidden; */
+}
+
+@media (max-width: 600px) {
+    #menu{
+        display: block;
+    }
+
+    #icon{
+        display: none;
+    }
+
+    .center{
+        display: flex;
+        flex-direction:column ;
+    } 
+    
+    .leftp1{
+        display: none;
+    }
+    .rightp1{
+        display: none;
+    }
+    .center{
+        height: auto;
+        /* width: 100%; */
+        align-items: center;
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+
+        
+
+
+    }
+
+    .profile{
+        height: 65vw;
+        width: 65vw;
+        /* padding-top: 2vw; */
+        margin-top: 0px;
+    }
+    .pic{
+        height:100% ;
+        width: 500px;
+    }
+    .content{
+        height: 40vw;
+        width: 100%;
+        
+    }
+    .content{
+        display: flex;
+        justify-items: center;
+        align-self: center;
+    }
+
+    .content h2{
+        font-size:30px ;
+    }
+     .content a{
+        font-size:45px ;
+    }
+
+    .content h4{
+        display: inline;
+        font-size: 15px;
+        
+        
+    }
+    .content p{
+        /* display: inline; */
+        font-size: 12px;
+        
+        
+    }
+    .content button{
+        /* display: inline; */
+        font-size: 15px;
+        
+        
+    }
+    .nav{
+        margin-bottom: 0px;
+    }
+    
+
+   
+
+    
+        
+
+
+}
