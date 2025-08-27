@@ -592,6 +592,12 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         gap: 1px 3px;
         
     }
+    .black-ball h1{
+        font-size: 7vw;
+    }
+     .black-ball p{
+        font-size: 2vw;
+    }
    
 
 }
