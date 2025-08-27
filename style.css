@@ -204,7 +204,7 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     /* background-color: blueviolet; */
 }
 .bigabout2{
-    height:60vh;
+    /* height:60vh; */
     width: 100%;
     /* background-color: rgb(43, 226, 76); */
 }
@@ -292,6 +292,106 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 2vh;
 }
 
+.yellow-btn{
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    gap:9.6vw;
+    
+}
+.yellow-btn a{
+    text-decoration: none;
+    color: rgb(7, 7, 7);
+    background-color: orange;
+    padding: 0px 30px;
+    border-radius: 15px;
+    font-weight: 800;
+    margin-left: 15vh;
+    text-align: center;
+
+
+}
+
+.yellow-black{
+    height: calc(100% - 5vh);
+    width: 100%;
+    /* background-color: rgb(249, 248, 248); */
+    display: flex;
+}
+
+.yellow-part{
+    height: 100%;
+    width: 45%;
+    /* background-color: rgb(149, 100, 40); */
+}
+.black-part{
+    height: 100%;
+    width: 55%;
+    /* background-color: aqua; */
+    display: flex;
+    gap: 6vw;
+   /* padding: 2.5vw; */
+    flex-wrap: wrap;
+    padding-top: 1vw;
+    
+    
+}
+
+.black-ball{
+    height: 7vw;
+    width: 7vw;
+    background-color: black;
+    /* color: orange; */
+    border-radius: 50%;
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+    
+    
+    
+
+}
+.black-ball h1{
+    font-size: 2.5vw;
+    color: orange;
+
+}
+.black-ball p{
+    font-size: 0.8vw;
+    color: white;
+    font-weight: 500;
+    /* position: relative; */
+
+}
+
+.yellow-box i{
+    background-color: orange;
+    padding: 1.7vw;
+    border-radius: 50%;
+    font-size: 3vw;
+    margin-right: 3vw;
+    margin-left: 5.9vw;
+    
+}
+.yellow-box{
+    display: flex;
+    padding-top: 1vw;
+
+}
+.yellow-box p{
+    font-size: 0.8vw;
+    font-weight: 400;
+}
+
+.yellow-box h3{
+    font-size: 1.4vw;
+    font-weight: 900;
+}
 
 
 
@@ -379,12 +479,121 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     .nav{
         margin-bottom: 0px;
     }
-    
+    .aboutpage{
+        flex-direction: column;
+    }
+    .aboutpage-part1{
+        width: 100%;
+        height: 25vw;
 
-   
-
-    
+    }
+    .img{
+        /* display: none; */
+        height: 20vw;
+        width: 20vw;
+    }
+    .aboutpage-part1{
+        display: flex;
+    }
+    .about-pic{
+        height: 25vw;
+        width: 25vw;
+        /* display: none; */
+        background-color: orange;
+        /* display: none; */
+    }
+    .about-nav{
+        display: flex;
+        flex-direction: row;
         
+        gap: 2vw;
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        position: relative;
+        /* padding-right: 40%; */
+        padding-left: 81%;
+        justify-content: center;
+        align-items: center;
+        margin-top: 25px;
+        white-space: nowrap;
+        font-size: 5vw;
+        
+        width:100% ;
 
+    }
+    .about-nav i{
+        display: none;
+    }
+    .aboutpage-part3{
+        display: none;
+    }
+
+    .aboutpage-part2{
+        width: 100%;
+        height: calc(100vh - 25vw);
+    }
+
+    .bigabout{
+        height: 40%;
+    }
+
+    .aboutme-div i{
+        font-size: 7vw;
+    }
+    .aboutme-div span{
+        font-size: 7vw;
+    }
+
+    .para h2{
+        font-size: 7vw;
+
+    }
+    .para p{
+        font-size: 2vw;
+        font-weight: 400;
+    }
+    .yellow-btn{
+        display: none;
+    }
+    .yellow-black{
+        display: flex;
+        flex-direction: column;
+    }
+    .yellow-part{
+        width: 100%;
+        height: 30%;
+        
+    }
+    .yellow-box i{
+        font-size: 10vw;
+    }
+     .yellow-text h3{
+        font-size: 4vw;
+    }
+    .yellow-text p{
+        font-size: 10px;
+    }
+    .black-part{
+        display: flex;
+        width: 100%;
+        height: 35%;
+        gap: 15%;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        justify-content: space-around;
+        /* align-items: center; */
+        margin: 5px;
+        gap: 9vw;
+
+    }
+    .black-ball{
+        height: 20vw;
+        width: 20vw;
+        gap: 1px 3px;
+        
+    }
+    .bigabout2{
+        /* height: 100%; */
+    }
 
 }
